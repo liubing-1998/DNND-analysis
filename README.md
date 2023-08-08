@@ -1,6 +1,6 @@
 # DNND-analysis
 
-1、修改[draw_MLP_MLP_A_twoNode.py](https://github.com/liubing-1998/DNND-analysis/blob/main/draw_MLP_MLP_A_twoNode.py)文件中第364、365行代码路径加载不同k值训练的模型参数，绘制F、G图
+1、修改[draw_MLP_MLP_A_twoNode.py](https://github.com/liubing-1998/DNND-analysis/blob/main/draw_MLP_MLP_A_twoNode.py)文件中第364、365行代码路径加载不同k值训练的模型参数，绘制F、G图。绘制的图片保存在.\picture\路径下
 
 ```python
 
