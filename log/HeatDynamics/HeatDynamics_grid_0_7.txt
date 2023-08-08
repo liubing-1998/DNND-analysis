@@ -1,0 +1,154 @@
+2023/08/08 10:14:12 AM 0_7_0808-101407
+2023/08/08 10:14:12 AM Namespace(T=5.0, T2=6.0, T3=40.0, T4=50.0, activation_function='ReLU', adjoint=False, atol=0.001, count='0_7', dropout=0, dump=True, dynamic='HeatDynamics', gpu=0, hidden_A_list=['2', '8', '1'], hidden_list=['0'], init_random=True, layout='community', lr=0.02, lr_strp=400, method='euler', n=400, network='grid', niters=2000, rtol=0.01, sampled_time='irregular', seed=456, sparse=False, test_freq=20, time_tick=100, viz=True, weight_decay=0.001)
+2023/08/08 10:14:12 AM seed: 456
+2023/08/08 10:14:12 AM id_train[0, 1, 3, 4, 5, 6, 7, 8, 10, 11, 12, 14, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 36, 37, 38, 39, 40, 41, 42, 44, 46, 49, 50, 51, 53, 54, 55, 56, 57, 58, 60, 61, 62, 63, 64, 65, 66, 68, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 83, 85, 86, 87, 88, 91, 93, 94, 96, 98, 99]
+2023/08/08 10:14:12 AM id_test[100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119]
+2023/08/08 10:14:12 AM id_test2[2, 9, 13, 20, 35, 43, 45, 47, 48, 52, 59, 67, 69, 82, 84, 89, 90, 92, 95, 97]
+2023/08/08 10:14:12 AM id_test3[120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139]
+2023/08/08 10:14:12 AM tensor(2964., device='cuda:0')
+2023/08/08 10:14:12 AM tensor([3., 5., 5., 5., 5., 5., 5., 5., 5., 5., 5., 5., 5., 5., 5., 5., 5., 5.,
+        5., 3., 5., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8.,
+        8., 8., 8., 5., 5., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8.,
+        8., 8., 8., 8., 8., 5., 5., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8.,
+        8., 8., 8., 8., 8., 8., 8., 5., 5., 8., 8., 8., 8., 8., 8., 8., 8., 8.,
+        8., 8., 8., 8., 8., 8., 8., 8., 8., 5., 5., 8., 8., 8., 8., 8., 8., 8.,
+        8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 5., 5., 8., 8., 8., 8., 8.,
+        8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 5., 5., 8., 8., 8.,
+        8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 5., 5., 8.,
+        8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 5.,
+        5., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8.,
+        8., 5., 5., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8.,
+        8., 8., 8., 5., 5., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8.,
+        8., 8., 8., 8., 8., 5., 5., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8.,
+        8., 8., 8., 8., 8., 8., 8., 5., 5., 8., 8., 8., 8., 8., 8., 8., 8., 8.,
+        8., 8., 8., 8., 8., 8., 8., 8., 8., 5., 5., 8., 8., 8., 8., 8., 8., 8.,
+        8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 5., 5., 8., 8., 8., 8., 8.,
+        8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 5., 5., 8., 8., 8.,
+        8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 5., 5., 8.,
+        8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 5.,
+        5., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8.,
+        8., 5., 3., 5., 5., 5., 5., 5., 5., 5., 5., 5., 5., 5., 5., 5., 5., 5.,
+        5., 5., 5., 3.], device='cuda:0')
+2023/08/08 10:14:12 AM 
+DNND(
+  (neural_dynamic_layer): ODEBlock(
+    (odefunc): ODEFunc(
+      (MLP_A): Sequential(
+        (Linear_layer_0): Linear(in_features=2, out_features=8, bias=True)
+        (Relu_layer_0): ReLU()
+        (Linear_layer_1): Linear(in_features=8, out_features=1, bias=True)
+      )
+      (MLP): Sequential()
+      (linear_A): Linear(in_features=2, out_features=1, bias=False)
+      (linear_f): Linear(in_features=1, out_features=1, bias=False)
+    )
+  )
+)
+2023/08/08 10:14:12 AM {'Total': 36, 'Trainable': 36}
+2023/08/08 10:14:14 AM Iter 0001| Train Loss 2.818024(0.771066 Relative) | Test Loss 5.416477(0.441647 Relative) | Test Loss2 5.288819(0.431238 Relative) | Test Loss3 8.207292(0.669204 Relative) | Time 1.9722
+2023/08/08 10:14:18 AM Iter 0020| Train Loss 0.762065(0.116469 Relative) | Test Loss 2.577101(0.210131 Relative) | Test Loss2 2.003701(0.163377 Relative) | Test Loss3 8.088232(0.659496 Relative) | Time 5.3816
+2023/08/08 10:14:22 AM Iter 0040| Train Loss 0.349008(0.052271 Relative) | Test Loss 0.616067(0.050233 Relative) | Test Loss2 0.692953(0.056502 Relative) | Test Loss3 1.058374(0.086297 Relative) | Time 9.4917
+2023/08/08 10:14:25 AM Iter 0060| Train Loss 0.232313(0.040660 Relative) | Test Loss 0.304541(0.024832 Relative) | Test Loss2 0.425295(0.034678 Relative) | Test Loss3 0.270750(0.022076 Relative) | Time 13.0041
+2023/08/08 10:14:29 AM Iter 0080| Train Loss 0.164268(0.029749 Relative) | Test Loss 0.384212(0.031328 Relative) | Test Loss2 0.433778(0.035369 Relative) | Test Loss3 0.355688(0.029002 Relative) | Time 17.1026
+2023/08/08 10:14:33 AM Iter 0100| Train Loss 0.175393(0.027236 Relative) | Test Loss 0.287957(0.023479 Relative) | Test Loss2 0.350196(0.028554 Relative) | Test Loss3 0.145420(0.011857 Relative) | Time 20.6133
+2023/08/08 10:14:37 AM Iter 0120| Train Loss 0.212075(0.036271 Relative) | Test Loss 2.629641(0.214415 Relative) | Test Loss2 1.811374(0.147695 Relative) | Test Loss3 4.026031(0.328273 Relative) | Time 24.8178
+2023/08/08 10:14:41 AM Iter 0140| Train Loss 0.743889(0.151592 Relative) | Test Loss 0.305319(0.024895 Relative) | Test Loss2 0.351618(0.028670 Relative) | Test Loss3 0.148294(0.012092 Relative) | Time 28.3815
+2023/08/08 10:14:45 AM Iter 0160| Train Loss 0.176729(0.029379 Relative) | Test Loss 0.304883(0.024859 Relative) | Test Loss2 0.350732(0.028598 Relative) | Test Loss3 0.174712(0.014246 Relative) | Time 32.4612
+2023/08/08 10:14:49 AM Iter 0180| Train Loss 0.164045(0.027202 Relative) | Test Loss 0.488737(0.039851 Relative) | Test Loss2 0.438825(0.035781 Relative) | Test Loss3 0.610121(0.049748 Relative) | Time 36.1730
+2023/08/08 10:14:52 AM Iter 0200| Train Loss 0.181089(0.025717 Relative) | Test Loss 0.355259(0.028967 Relative) | Test Loss2 0.361609(0.029485 Relative) | Test Loss3 0.362931(0.029593 Relative) | Time 40.1125
+2023/08/08 10:14:56 AM Iter 0220| Train Loss 0.695024(0.108995 Relative) | Test Loss 0.297270(0.024239 Relative) | Test Loss2 0.333963(0.027231 Relative) | Test Loss3 0.140049(0.011419 Relative) | Time 43.7525
+2023/08/08 10:15:00 AM Iter 0240| Train Loss 0.191593(0.028122 Relative) | Test Loss 0.351790(0.028684 Relative) | Test Loss2 0.364906(0.029754 Relative) | Test Loss3 0.327672(0.026718 Relative) | Time 47.7834
+2023/08/08 10:15:04 AM Iter 0260| Train Loss 0.183225(0.026166 Relative) | Test Loss 0.295458(0.024091 Relative) | Test Loss2 0.334957(0.027312 Relative) | Test Loss3 0.125087(0.010199 Relative) | Time 51.5438
+2023/08/08 10:15:08 AM Iter 0280| Train Loss 0.201764(0.029417 Relative) | Test Loss 0.560196(0.045677 Relative) | Test Loss2 0.465491(0.037955 Relative) | Test Loss3 0.752188(0.061332 Relative) | Time 55.4550
+2023/08/08 10:15:11 AM Iter 0300| Train Loss 0.234832(0.031071 Relative) | Test Loss 0.686978(0.056015 Relative) | Test Loss2 0.528148(0.043064 Relative) | Test Loss3 0.967032(0.078850 Relative) | Time 59.1289
+2023/08/08 10:15:15 AM Iter 0320| Train Loss 0.982348(0.137214 Relative) | Test Loss 3.113476(0.253866 Relative) | Test Loss2 2.397859(0.195516 Relative) | Test Loss3 3.529468(0.287785 Relative) | Time 63.1239
+2023/08/08 10:15:19 AM Iter 0340| Train Loss 0.196021(0.025683 Relative) | Test Loss 1.178503(0.096092 Relative) | Test Loss2 0.846597(0.069030 Relative) | Test Loss3 1.634341(0.133260 Relative) | Time 66.7108
+2023/08/08 10:15:23 AM Iter 0360| Train Loss 0.273735(0.037869 Relative) | Test Loss 0.293786(0.023955 Relative) | Test Loss2 0.329563(0.026872 Relative) | Test Loss3 0.142417(0.011612 Relative) | Time 70.8103
+2023/08/08 10:15:27 AM Iter 0380| Train Loss 0.228638(0.030135 Relative) | Test Loss 0.771581(0.062913 Relative) | Test Loss2 0.584356(0.047647 Relative) | Test Loss3 1.048334(0.085479 Relative) | Time 74.5982
+2023/08/08 10:15:31 AM Iter 0400| Train Loss 0.267939(0.028275 Relative) | Test Loss 0.325328(0.026527 Relative) | Test Loss2 0.338241(0.027579 Relative) | Test Loss3 0.226874(0.018499 Relative) | Time 78.5145
+2023/08/08 10:15:35 AM Iter 0420| Train Loss 0.233720(0.024342 Relative) | Test Loss 0.379361(0.030932 Relative) | Test Loss2 0.367373(0.029955 Relative) | Test Loss3 0.343959(0.028046 Relative) | Time 82.1892
+2023/08/08 10:15:39 AM Iter 0440| Train Loss 0.227375(0.023641 Relative) | Test Loss 0.308882(0.025186 Relative) | Test Loss2 0.322468(0.026293 Relative) | Test Loss3 0.269795(0.021998 Relative) | Time 86.1850
+2023/08/08 10:15:42 AM Iter 0460| Train Loss 0.225615(0.023436 Relative) | Test Loss 0.308830(0.025181 Relative) | Test Loss2 0.318963(0.026008 Relative) | Test Loss3 0.227207(0.018526 Relative) | Time 89.8654
+2023/08/08 10:15:46 AM Iter 0480| Train Loss 0.252743(0.026749 Relative) | Test Loss 0.321316(0.026199 Relative) | Test Loss2 0.320617(0.026142 Relative) | Test Loss3 0.347185(0.028309 Relative) | Time 93.8570
+2023/08/08 10:15:50 AM Iter 0500| Train Loss 0.254115(0.026649 Relative) | Test Loss 0.332132(0.027081 Relative) | Test Loss2 0.322690(0.026311 Relative) | Test Loss3 0.394347(0.032154 Relative) | Time 97.5834
+2023/08/08 10:15:54 AM Iter 0520| Train Loss 0.216699(0.022550 Relative) | Test Loss 0.355758(0.029008 Relative) | Test Loss2 0.336730(0.027456 Relative) | Test Loss3 0.366991(0.029924 Relative) | Time 101.6029
+2023/08/08 10:15:58 AM Iter 0540| Train Loss 0.335300(0.036219 Relative) | Test Loss 0.282817(0.023060 Relative) | Test Loss2 0.292473(0.023848 Relative) | Test Loss3 0.221727(0.018079 Relative) | Time 105.2532
+2023/08/08 10:16:02 AM Iter 0560| Train Loss 0.251488(0.026451 Relative) | Test Loss 0.423743(0.034551 Relative) | Test Loss2 0.360485(0.029393 Relative) | Test Loss3 0.652346(0.053191 Relative) | Time 109.2743
+2023/08/08 10:16:05 AM Iter 0580| Train Loss 0.202995(0.021233 Relative) | Test Loss 0.313028(0.025524 Relative) | Test Loss2 0.303697(0.024763 Relative) | Test Loss3 0.311731(0.025418 Relative) | Time 112.9245
+2023/08/08 10:16:09 AM Iter 0600| Train Loss 0.200989(0.021056 Relative) | Test Loss 0.567853(0.046301 Relative) | Test Loss2 0.462154(0.037683 Relative) | Test Loss3 0.801215(0.065329 Relative) | Time 116.9866
+2023/08/08 10:16:13 AM Iter 0620| Train Loss 0.218082(0.023077 Relative) | Test Loss 0.334429(0.027269 Relative) | Test Loss2 0.306000(0.024951 Relative) | Test Loss3 0.494178(0.040294 Relative) | Time 120.7903
+2023/08/08 10:16:18 AM Iter 0640| Train Loss 0.199639(0.020828 Relative) | Test Loss 0.275139(0.022434 Relative) | Test Loss2 0.273527(0.022303 Relative) | Test Loss3 0.329961(0.026904 Relative) | Time 126.0153
+2023/08/08 10:16:22 AM Iter 0660| Train Loss 0.184369(0.019219 Relative) | Test Loss 0.295698(0.024111 Relative) | Test Loss2 0.280490(0.022870 Relative) | Test Loss3 0.420817(0.034312 Relative) | Time 129.6668
+2023/08/08 10:16:26 AM Iter 0680| Train Loss 0.212203(0.022275 Relative) | Test Loss 0.535671(0.043677 Relative) | Test Loss2 0.399103(0.032542 Relative) | Test Loss3 0.997923(0.081368 Relative) | Time 133.7820
+2023/08/08 10:16:30 AM Iter 0700| Train Loss 0.178375(0.018577 Relative) | Test Loss 0.254834(0.020779 Relative) | Test Loss2 0.254213(0.020728 Relative) | Test Loss3 0.315467(0.025722 Relative) | Time 137.5565
+2023/08/08 10:16:34 AM Iter 0720| Train Loss 0.246043(0.026063 Relative) | Test Loss 0.242109(0.019741 Relative) | Test Loss2 0.245395(0.020009 Relative) | Test Loss3 0.266057(0.021694 Relative) | Time 141.6177
+2023/08/08 10:16:38 AM Iter 0740| Train Loss 0.201670(0.021434 Relative) | Test Loss 0.345156(0.028143 Relative) | Test Loss2 0.303895(0.024779 Relative) | Test Loss3 0.497736(0.040584 Relative) | Time 145.3572
+2023/08/08 10:16:42 AM Iter 0760| Train Loss 0.170722(0.017889 Relative) | Test Loss 0.245769(0.020039 Relative) | Test Loss2 0.241419(0.019685 Relative) | Test Loss3 0.343613(0.028017 Relative) | Time 149.4256
+2023/08/08 10:16:45 AM Iter 0780| Train Loss 0.192066(0.020168 Relative) | Test Loss 0.269488(0.021973 Relative) | Test Loss2 0.249746(0.020364 Relative) | Test Loss3 0.461004(0.037589 Relative) | Time 153.1644
+2023/08/08 10:16:50 AM Iter 0800| Train Loss 0.302475(0.025343 Relative) | Test Loss 0.399173(0.032548 Relative) | Test Loss2 0.310936(0.025353 Relative) | Test Loss3 0.843995(0.068817 Relative) | Time 157.2024
+2023/08/08 10:16:53 AM Iter 0820| Train Loss 0.382596(0.032081 Relative) | Test Loss 0.548242(0.044702 Relative) | Test Loss2 0.385746(0.031453 Relative) | Test Loss3 1.188342(0.096895 Relative) | Time 160.8882
+2023/08/08 10:16:57 AM Iter 0840| Train Loss 0.349498(0.029299 Relative) | Test Loss 0.484473(0.039503 Relative) | Test Loss2 0.352532(0.028745 Relative) | Test Loss3 1.051687(0.085752 Relative) | Time 164.8991
+2023/08/08 10:17:01 AM Iter 0860| Train Loss 0.270968(0.022695 Relative) | Test Loss 0.532791(0.043443 Relative) | Test Loss2 0.376647(0.030711 Relative) | Test Loss3 1.161852(0.094735 Relative) | Time 168.6154
+2023/08/08 10:17:05 AM Iter 0880| Train Loss 0.314557(0.026361 Relative) | Test Loss 0.548491(0.044723 Relative) | Test Loss2 0.384062(0.031316 Relative) | Test Loss3 1.204246(0.098191 Relative) | Time 172.6674
+2023/08/08 10:17:09 AM Iter 0900| Train Loss 0.226659(0.018969 Relative) | Test Loss 0.398617(0.032502 Relative) | Test Loss2 0.307201(0.025048 Relative) | Test Loss3 0.868406(0.070808 Relative) | Time 176.4325
+2023/08/08 10:17:13 AM Iter 0920| Train Loss 0.216868(0.018146 Relative) | Test Loss 0.280243(0.022850 Relative) | Test Loss2 0.247852(0.020209 Relative) | Test Loss3 0.552206(0.045026 Relative) | Time 180.3738
+2023/08/08 10:17:17 AM Iter 0940| Train Loss 0.205707(0.017209 Relative) | Test Loss 0.335731(0.027375 Relative) | Test Loss2 0.272883(0.022250 Relative) | Test Loss3 0.735940(0.060007 Relative) | Time 184.2599
+2023/08/08 10:17:20 AM Iter 0960| Train Loss 0.211517(0.017716 Relative) | Test Loss 0.230071(0.018759 Relative) | Test Loss2 0.220232(0.017957 Relative) | Test Loss3 0.399230(0.032552 Relative) | Time 188.1558
+2023/08/08 10:17:24 AM Iter 0980| Train Loss 0.264889(0.022221 Relative) | Test Loss 0.223076(0.018189 Relative) | Test Loss2 0.215006(0.017531 Relative) | Test Loss3 0.387728(0.031614 Relative) | Time 192.1168
+2023/08/08 10:17:28 AM Iter 1000| Train Loss 0.184800(0.015460 Relative) | Test Loss 0.312468(0.025478 Relative) | Test Loss2 0.255837(0.020860 Relative) | Test Loss3 0.727362(0.059307 Relative) | Time 196.0299
+2023/08/08 10:17:32 AM Iter 1020| Train Loss 0.197954(0.016575 Relative) | Test Loss 0.220748(0.017999 Relative) | Test Loss2 0.210434(0.017158 Relative) | Test Loss3 0.419062(0.034169 Relative) | Time 200.1056
+2023/08/08 10:17:36 AM Iter 1040| Train Loss 0.176131(0.014728 Relative) | Test Loss 0.319336(0.026038 Relative) | Test Loss2 0.270676(0.022070 Relative) | Test Loss3 0.606414(0.049446 Relative) | Time 203.9106
+2023/08/08 10:17:41 AM Iter 1060| Train Loss 0.175737(0.014700 Relative) | Test Loss 0.563743(0.045966 Relative) | Test Loss2 0.416116(0.033929 Relative) | Test Loss3 1.189209(0.096965 Relative) | Time 208.5765
+2023/08/08 10:17:45 AM Iter 1080| Train Loss 0.235745(0.019741 Relative) | Test Loss 0.642237(0.052366 Relative) | Test Loss2 0.463431(0.037787 Relative) | Test Loss3 1.359177(0.110824 Relative) | Time 212.8009
+2023/08/08 10:17:49 AM Iter 1100| Train Loss 0.253411(0.021259 Relative) | Test Loss 1.098129(0.089539 Relative) | Test Loss2 0.693163(0.056519 Relative) | Test Loss3 2.855445(0.232826 Relative) | Time 216.8747
+2023/08/08 10:17:53 AM Iter 1120| Train Loss 0.196567(0.016461 Relative) | Test Loss 0.815210(0.066470 Relative) | Test Loss2 0.571120(0.046568 Relative) | Test Loss3 1.667005(0.135924 Relative) | Time 220.5197
+2023/08/08 10:17:57 AM Iter 1140| Train Loss 0.639165(0.053664 Relative) | Test Loss 0.524446(0.042762 Relative) | Test Loss2 0.394849(0.032195 Relative) | Test Loss3 1.059681(0.086404 Relative) | Time 224.5953
+2023/08/08 10:18:01 AM Iter 1160| Train Loss 0.529540(0.044518 Relative) | Test Loss 1.147511(0.093565 Relative) | Test Loss2 0.726860(0.059267 Relative) | Test Loss3 2.879167(0.234761 Relative) | Time 228.3911
+2023/08/08 10:18:05 AM Iter 1180| Train Loss 0.200677(0.016806 Relative) | Test Loss 0.799587(0.065196 Relative) | Test Loss2 0.564828(0.046055 Relative) | Test Loss3 1.587304(0.129425 Relative) | Time 232.5621
+2023/08/08 10:18:09 AM Iter 1200| Train Loss 0.295356(0.024215 Relative) | Test Loss 0.216445(0.017648 Relative) | Test Loss2 0.210492(0.017163 Relative) | Test Loss3 0.341024(0.027806 Relative) | Time 236.3548
+2023/08/08 10:18:13 AM Iter 1220| Train Loss 0.199423(0.016347 Relative) | Test Loss 0.288135(0.023494 Relative) | Test Loss2 0.243783(0.019878 Relative) | Test Loss3 0.640884(0.052256 Relative) | Time 240.5162
+2023/08/08 10:18:16 AM Iter 1240| Train Loss 0.190778(0.015635 Relative) | Test Loss 0.214799(0.017514 Relative) | Test Loss2 0.208796(0.017025 Relative) | Test Loss3 0.343782(0.028031 Relative) | Time 244.1469
+2023/08/08 10:18:21 AM Iter 1260| Train Loss 0.184295(0.015104 Relative) | Test Loss 0.213317(0.017393 Relative) | Test Loss2 0.207631(0.016930 Relative) | Test Loss3 0.334885(0.027306 Relative) | Time 248.3248
+2023/08/08 10:18:24 AM Iter 1280| Train Loss 0.181953(0.014912 Relative) | Test Loss 0.211836(0.017273 Relative) | Test Loss2 0.205913(0.016790 Relative) | Test Loss3 0.342916(0.027961 Relative) | Time 251.9890
+2023/08/08 10:18:28 AM Iter 1300| Train Loss 0.181057(0.014839 Relative) | Test Loss 0.210445(0.017159 Relative) | Test Loss2 0.204541(0.016678 Relative) | Test Loss3 0.344455(0.028086 Relative) | Time 256.0631
+2023/08/08 10:18:32 AM Iter 1320| Train Loss 0.178973(0.014668 Relative) | Test Loss 0.209627(0.017093 Relative) | Test Loss2 0.202896(0.016544 Relative) | Test Loss3 0.366559(0.029888 Relative) | Time 259.6785
+2023/08/08 10:18:36 AM Iter 1340| Train Loss 0.177522(0.014549 Relative) | Test Loss 0.257288(0.020979 Relative) | Test Loss2 0.223824(0.018250 Relative) | Test Loss3 0.594102(0.048442 Relative) | Time 263.7791
+2023/08/08 10:18:40 AM Iter 1360| Train Loss 0.176428(0.014459 Relative) | Test Loss 0.213492(0.017408 Relative) | Test Loss2 0.202657(0.016524 Relative) | Test Loss3 0.422031(0.034411 Relative) | Time 267.4033
+2023/08/08 10:18:44 AM Iter 1380| Train Loss 0.174544(0.014304 Relative) | Test Loss 0.205178(0.016730 Relative) | Test Loss2 0.198148(0.016157 Relative) | Test Loss3 0.383968(0.031308 Relative) | Time 271.4909
+2023/08/08 10:18:47 AM Iter 1400| Train Loss 0.177342(0.014535 Relative) | Test Loss 0.227150(0.018521 Relative) | Test Loss2 0.210810(0.017189 Relative) | Test Loss3 0.406687(0.033160 Relative) | Time 275.0811
+2023/08/08 10:18:52 AM Iter 1420| Train Loss 0.179104(0.014678 Relative) | Test Loss 0.210680(0.017178 Relative) | Test Loss2 0.200878(0.016379 Relative) | Test Loss3 0.375954(0.030654 Relative) | Time 279.1821
+2023/08/08 10:18:55 AM Iter 1440| Train Loss 0.170730(0.013992 Relative) | Test Loss 0.224683(0.018320 Relative) | Test Loss2 0.204102(0.016642 Relative) | Test Loss3 0.523463(0.042682 Relative) | Time 282.7084
+2023/08/08 10:18:59 AM Iter 1460| Train Loss 0.168748(0.013829 Relative) | Test Loss 0.198413(0.016178 Relative) | Test Loss2 0.191529(0.015617 Relative) | Test Loss3 0.391047(0.031885 Relative) | Time 286.8734
+2023/08/08 10:19:03 AM Iter 1480| Train Loss 0.166887(0.013676 Relative) | Test Loss 0.197286(0.016086 Relative) | Test Loss2 0.190012(0.015493 Relative) | Test Loss3 0.404990(0.033022 Relative) | Time 290.5056
+2023/08/08 10:19:07 AM Iter 1500| Train Loss 0.171842(0.014084 Relative) | Test Loss 0.215588(0.017579 Relative) | Test Loss2 0.200873(0.016379 Relative) | Test Loss3 0.417874(0.034072 Relative) | Time 294.5872
+2023/08/08 10:19:10 AM Iter 1520| Train Loss 0.172095(0.014103 Relative) | Test Loss 0.209267(0.017063 Relative) | Test Loss2 0.193060(0.015742 Relative) | Test Loss3 0.506441(0.041294 Relative) | Time 298.1204
+2023/08/08 10:19:15 AM Iter 1540| Train Loss 0.166572(0.013650 Relative) | Test Loss 0.192783(0.015719 Relative) | Test Loss2 0.186268(0.015188 Relative) | Test Loss3 0.389203(0.031735 Relative) | Time 302.2017
+2023/08/08 10:19:18 AM Iter 1560| Train Loss 0.166998(0.013685 Relative) | Test Loss 0.189616(0.015461 Relative) | Test Loss2 0.183583(0.014969 Relative) | Test Loss3 0.397577(0.032417 Relative) | Time 305.8474
+2023/08/08 10:19:22 AM Iter 1580| Train Loss 0.185510(0.015204 Relative) | Test Loss 0.190571(0.015539 Relative) | Test Loss2 0.182074(0.014846 Relative) | Test Loss3 0.446457(0.036403 Relative) | Time 309.9067
+2023/08/08 10:19:26 AM Iter 1600| Train Loss 0.166618(0.013654 Relative) | Test Loss 0.186670(0.015221 Relative) | Test Loss2 0.179723(0.014654 Relative) | Test Loss3 0.429768(0.035042 Relative) | Time 313.4272
+2023/08/08 10:19:30 AM Iter 1620| Train Loss 0.161489(0.013235 Relative) | Test Loss 0.299835(0.024448 Relative) | Test Loss2 0.230771(0.018816 Relative) | Test Loss3 0.894745(0.072955 Relative) | Time 317.4317
+2023/08/08 10:19:33 AM Iter 1640| Train Loss 0.162833(0.013345 Relative) | Test Loss 0.187136(0.015259 Relative) | Test Loss2 0.178722(0.014573 Relative) | Test Loss3 0.455792(0.037164 Relative) | Time 321.0146
+2023/08/08 10:19:37 AM Iter 1660| Train Loss 0.157410(0.012899 Relative) | Test Loss 0.184789(0.015067 Relative) | Test Loss2 0.178712(0.014572 Relative) | Test Loss3 0.409117(0.033358 Relative) | Time 325.0546
+2023/08/08 10:19:41 AM Iter 1680| Train Loss 0.155531(0.012745 Relative) | Test Loss 0.189531(0.015454 Relative) | Test Loss2 0.178634(0.014565 Relative) | Test Loss3 0.488665(0.039845 Relative) | Time 328.6082
+2023/08/08 10:19:45 AM Iter 1700| Train Loss 0.153772(0.012601 Relative) | Test Loss 0.181675(0.014813 Relative) | Test Loss2 0.175266(0.014291 Relative) | Test Loss3 0.434857(0.035457 Relative) | Time 332.6112
+2023/08/08 10:19:49 AM Iter 1720| Train Loss 0.153014(0.012538 Relative) | Test Loss 0.191283(0.015597 Relative) | Test Loss2 0.181672(0.014813 Relative) | Test Loss3 0.429925(0.035055 Relative) | Time 336.2733
+2023/08/08 10:19:53 AM Iter 1740| Train Loss 0.158385(0.012979 Relative) | Test Loss 0.195219(0.015918 Relative) | Test Loss2 0.179255(0.014616 Relative) | Test Loss3 0.545505(0.044479 Relative) | Time 340.2700
+2023/08/08 10:19:56 AM Iter 1760| Train Loss 0.151436(0.012409 Relative) | Test Loss 0.186197(0.015182 Relative) | Test Loss2 0.178056(0.014518 Relative) | Test Loss3 0.429162(0.034993 Relative) | Time 343.9357
+2023/08/08 10:20:00 AM Iter 1780| Train Loss 0.150738(0.012352 Relative) | Test Loss 0.178086(0.014521 Relative) | Test Loss2 0.171475(0.013982 Relative) | Test Loss3 0.454265(0.037040 Relative) | Time 347.9537
+2023/08/08 10:20:04 AM Iter 1800| Train Loss 0.149647(0.012262 Relative) | Test Loss 0.178093(0.014521 Relative) | Test Loss2 0.170749(0.013922 Relative) | Test Loss3 0.470162(0.038336 Relative) | Time 351.8535
+2023/08/08 10:20:08 AM Iter 1820| Train Loss 0.153640(0.012591 Relative) | Test Loss 0.180597(0.014725 Relative) | Test Loss2 0.170970(0.013940 Relative) | Test Loss3 0.500618(0.040819 Relative) | Time 355.8964
+2023/08/08 10:20:12 AM Iter 1840| Train Loss 0.155796(0.012768 Relative) | Test Loss 0.217095(0.017701 Relative) | Test Loss2 0.186109(0.015175 Relative) | Test Loss3 0.679692(0.055421 Relative) | Time 359.9982
+2023/08/08 10:20:16 AM Iter 1860| Train Loss 0.157472(0.012906 Relative) | Test Loss 0.202554(0.016516 Relative) | Test Loss2 0.179028(0.014598 Relative) | Test Loss3 0.625448(0.050998 Relative) | Time 364.1254
+2023/08/08 10:20:20 AM Iter 1880| Train Loss 0.155212(0.012720 Relative) | Test Loss 0.208986(0.017040 Relative) | Test Loss2 0.181282(0.014781 Relative) | Test Loss3 0.662095(0.053986 Relative) | Time 368.0798
+2023/08/08 10:20:24 AM Iter 1900| Train Loss 0.145341(0.011909 Relative) | Test Loss 0.221044(0.018023 Relative) | Test Loss2 0.186207(0.015183 Relative) | Test Loss3 0.718078(0.058550 Relative) | Time 371.9841
+2023/08/08 10:20:28 AM Iter 1920| Train Loss 0.160173(0.013128 Relative) | Test Loss 0.170673(0.013916 Relative) | Test Loss2 0.164576(0.013419 Relative) | Test Loss3 0.475878(0.038802 Relative) | Time 376.0411
+2023/08/08 10:20:32 AM Iter 1940| Train Loss 0.146680(0.012020 Relative) | Test Loss 0.172816(0.014091 Relative) | Test Loss2 0.164450(0.013409 Relative) | Test Loss3 0.509193(0.041518 Relative) | Time 379.9608
+2023/08/08 10:20:36 AM Iter 1960| Train Loss 0.142775(0.011699 Relative) | Test Loss 0.189392(0.015443 Relative) | Test Loss2 0.170493(0.013902 Relative) | Test Loss3 0.607847(0.049562 Relative) | Time 384.0670
+2023/08/08 10:20:40 AM Iter 1980| Train Loss 0.141823(0.011621 Relative) | Test Loss 0.244531(0.019939 Relative) | Test Loss2 0.194629(0.015870 Relative) | Test Loss3 0.839638(0.068462 Relative) | Time 387.9917
+2023/08/08 10:20:45 AM Iter 2000| Train Loss 0.141489(0.011593 Relative) | Test Loss 0.168983(0.013779 Relative) | Test Loss2 0.161175(0.013142 Relative) | Test Loss3 0.512501(0.041788 Relative) | Time 392.2053
+2023/08/08 10:20:45 AM 0808-102045
+2023/08/08 10:20:45 AM RESULT 2000| Train Loss 0.141489(0.011593 Relative) | Test Loss 0.168983(0.013779 Relative) | Test Loss2 0.161175(0.013142 Relative) | Test Loss3 0.512501(0.041788 Relative) | Time 392.3201
+2023/08/08 10:20:49 AM Total Time 396.4595
+2023/08/08 10:20:49 AM Dump results as: results/HeatDynamics/grid/result_HeatDynamics_grid_0808-102045_0_7.pth
+2023/08/08 10:20:49 AM 
+
